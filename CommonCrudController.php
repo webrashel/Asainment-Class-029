@@ -76,7 +76,7 @@ class CommonCrudController {
         $sql = "UPDATE $table_name SET $field_valuses WHERE $whereClause";
 
 		if ($this->mysqli->query($sql)) {
-			array_push($this->result, 'update successfull');
+			array_push($this->result, 'successfully updated');
 			return true;
 		} else {
 			array_push($this->result, $this->mysqli->error);
@@ -89,7 +89,7 @@ class CommonCrudController {
         $sql = "DELETE FROM $table_name WHERE id=$pk_id";
 
 		if ($this->mysqli->query($sql)) {
-			array_push($this->result, 'Delete successfull');
+			array_push($this->result, 'Delete is successfull');
 			return true;
 		} else {
 			array_push($this->result, $this->mysqli->error);

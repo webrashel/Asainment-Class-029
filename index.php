@@ -4,9 +4,9 @@
     $crudObj = new CommonCrudController();
 
     $formData = [];
-    $formData['name']     = 'Md. towhid islam';
-    $formData['email']    = 'towhidislam@gmail.com';
-    $formData['password'] = 'abc@123';
+    $formData['name']     = 'rashel rana';
+    $formData['email']    = 'islamrashel131@gmail.com';
+    $formData['password'] = '00001';
 
     
 
